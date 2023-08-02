@@ -1,6 +1,6 @@
 import React from "react";
 
-function myHeader(props) {
+function MyHeader(props) {
     return (
         <header className="header">
             <h1>Big John Baldwin</h1>
@@ -9,4 +9,4 @@ function myHeader(props) {
     )
 }
 
-export default myHeader
+export default MyHeader
