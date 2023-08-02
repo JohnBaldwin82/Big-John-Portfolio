@@ -1,10 +1,11 @@
 import React from 'react'
+import profile from "../../assets/images/profile.jpg"
 
 function About() {
     return (
         <section className='my-5'>
             <div className='about-me'>
-                <img src={image} alt='image'></img>
+                <img src={profile} alt='profilePic'></img>
                 <p>I am a junior fullstack web developer that is looking to restart my career. I have spent many years in sales and the mortgage industry. Now I am ready to start my new adventure in the wonderful world of coding.
                 </p>
 

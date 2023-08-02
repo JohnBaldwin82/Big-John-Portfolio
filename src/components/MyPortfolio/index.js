@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Projects from "../Projects";
+import Project from "../MyProjects";
 
 function MyPortfolio() {
-    const [projects] = useState([
+    const [Projects] = useState([
   
     {
       name: "Employee-Tracker",
