@@ -1,13 +1,13 @@
 import React from "react"
 import {removeHyphenThenCapitalize} from '../../utils/helpers'
 
-function MyProject({myProject}) {
+function MyProjects({myProject}) {
     const{name, repo, link, description} = myProject
 
     return (
         <div className="myProject" key={name}>
             <img
-            src={require(`../../assets/pojects/${name}.jpg`)}
+            src={require(`../../assets/projects/${name}.jpg`)}
             alt={removeHyphenThenCapitalize(name)}
             className='myProject'/>
 
@@ -22,3 +22,5 @@ function MyProject({myProject}) {
         </div>
     )
 }
+
+export default MyProjects

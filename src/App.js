@@ -3,6 +3,7 @@ import MyHeader from './components/MyHeader'
 import Nav from './components/Nav'
 import MyPage from './components/MyPage'
 import MyFooter from './components/MyFooter'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
@@ -29,17 +30,11 @@ function App() {
 
   return (
     <div className="App">
-      <MyHeader>
-       <Nav pages={pages}
-       setCurrentPage={setCurrentPage}
-       currentPage ={currentPage}
-       ></Nav>
       
-      </MyHeader>
       <main>
         <MyPage currentPage={currentPage}></MyPage>
       </main>
-      <MyFooter/>
+      
     </div>
   );
 }

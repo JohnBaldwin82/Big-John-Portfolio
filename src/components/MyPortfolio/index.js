@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Project from "../MyProjects";
+import MyProjects from "../MyProjects";
 
 function MyPortfolio() {
-    const [Projects] = useState([
+    const [MyProjects] = useState([
   
     {
       name: "Employee-Tracker",
@@ -36,8 +36,8 @@ function MyPortfolio() {
     <div className="MyPortfolio">
         <div className="flex-column">
         <div className="card">
-            {Projects.map((project, idx) => (
-                <Project
+            {MyProjects.map((project, idx) => (
+                <MyProjects
                 project={project}
                 key={"project" + idx}
                 />

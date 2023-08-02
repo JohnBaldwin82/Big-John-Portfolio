@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {confirmEmail} from '../../utils/helpers'
 
-function myContact() {
+function MyContact() {
     const [formState, setFormState] = useState({
         name: "",
         email: "",
@@ -20,7 +20,7 @@ function myContact() {
 
     const changeHandle = (e) => {
         if (e.target.name === "email") {
-            const yesValid = validateEmail(e.target.value)
+            const yesValid = confirmEmail(e.target.value)
             if (!yesValid) {
                 setErrorMessage("Not a valid email address")
             } else {
@@ -46,6 +46,14 @@ function myContact() {
                     />
                 </div>
                 <div>
+
+                    <label htmlFor= 'email'>Email</label>
+                    <input
+                        type='email'
+                        name='email'
+                        defaultValue={email}
+                        onBlur={changeHandle}
+                        />
                     <label htmlFor="message">Message Me</label>
                     <textarea
                     name="message"
@@ -65,4 +73,4 @@ function myContact() {
     )
 }
 
-export default myContact
+export default MyContact

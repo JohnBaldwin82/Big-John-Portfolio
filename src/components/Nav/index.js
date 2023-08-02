@@ -1,11 +1,11 @@
 import React, {useEffect} from "react"
-import {capitalize} from "../..utils/helpers"
+import {capitalize} from "../../utils/helpers"
 
 
 function Nav(props) {
     const {
         pages = [],
-        thisCurrentPage,
+        setCurrentPage,
         currentPage
     } = props
 
