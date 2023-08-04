@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import MyProjects from "../MyProjects";
 
 function MyPortfolio() {
-    const [projects] = useState([
-  
+  const [projects] = useState([
     {
       name: "Employee-Tracker",
       description: "Node, Inquirer, MySQL",
@@ -21,34 +20,33 @@ function MyPortfolio() {
       repo: "https://github.com/JohnBaldwin82/Food-And-Recipe-Generator",
     },
     {
-        name: "Note-Taker",
-        description: "Express",
-        repo: "https://github.com/JohnBaldwin82/Note-Taker",
+      name: "Note-Taker",
+      description: "Express",
+      repo: "https://github.com/JohnBaldwin82/Note-Taker",
     },
     {
-        name: "Text-Editor",
-        description: "PWA, ",
-        repo: "https://github.com/JohnBaldwin82/Text-Editor",
+      name: "Text-Editor",
+      description: "PWA, ",
+      repo: "https://github.com/JohnBaldwin82/Text-Editor",
+    },
+    {
+      name: "Work-Day-Schedule",
+      description: "PWA, ",
+      repo: "https://github.com/JohnBaldwin82/Work-Day-Schedule",
     },
   ]);
 
   return (
     <div className="MyPortfolio">
-        <div className="flex-column">
+      <div className="flex-column">
         <div className="card">
-            {projects.map((projects, idx) => (
-                <MyProjects
-                project={projects}
-                key={"project" + idx}
-                />
-            ))}
-            </div>
+          {projects.map((projects, idx) => (
+            <MyProjects project={projects} key={"project" + idx} />
+          ))}
         </div>
+      </div>
     </div>
-)
+  );
 }
 
-export default MyPortfolio
-
-
-            
+export default MyPortfolio;

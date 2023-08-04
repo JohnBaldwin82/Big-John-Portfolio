@@ -6,7 +6,7 @@ import MyContact from "../MyContact";
 import Homepage from "../Homepage";
 import MyResume from "../MyResume";
 
-function MyPage({ currentPage }) {
+function renderMyPage({ currentPage }) {
   const renderMyPage = () => {
     switch (currentPage.name) {
       case "about me":
@@ -24,11 +24,9 @@ function MyPage({ currentPage }) {
 
   return (
     <section>
-      <MyPageContent>
-        {renderMyPage()}
-      </MyPageContent>
+      <MyPageContent>{renderMyPage()}</MyPageContent>
     </section>
-  )
+  );
 }
 
-export default MyPage
+export default renderMyPage;

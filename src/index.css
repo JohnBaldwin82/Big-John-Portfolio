@@ -1,13 +1,207 @@
+*{
+  background-color: lightblue;
+  
+}
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  background: var(--light);
+  color: var(--light);
+  font-family: 'Open Sans', sans-serif;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.heading {
+  background-color: lightblue;
+}
+
+.heading h1 {
+  display:inline-block;
+  background-color: lightblue;
+  color:#ECE3D5;
+  position: relative;
+  top: 35px;
+}
+nav {
+  display: inline-block;
+  background-color: lightblue;
+  padding: 0;
+  margin:0;
+  justify-content: flex-end;
+
+}
+
+nav ul {
+  background-color: lightblue;
+  list-style-type: none;
+  display: inline-flex;
+  color: #ECE3D5;
+  justify-content:center;
+}
+nav li {
+  background-color: lightblue;
+  font-size: 14px;
+  font-weight: bold;
+  color: blue;
+}
+
+nav li:hover {
+  background-color: #ECE3D5;
+  color: yellow;
+}
+
+.about-me {
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  font-size: 50x;
+  color:#ECE3D5;
+}
+
+.about-me img {
+  height:400px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.home {
+display: inline-flexbox;
+}
+.home h1{
+  margin-left: 300px;
+  text-align: center;
+  font-size: 50px;
+  color: #ECE3D5;
+}
+.home p {
+  text-align: center;
+}
+.home img {
+  display: inline-block;
+  position:relative;
+  top: 50%;
+  padding-left: 100px;
+  height: 500px;
+  width: 400px;
+  margin-right: 300px;
+
+}
+
+.column {
+  float:left;
+  padding:20px;
+  height:300px;
+}
+.left {
+  width:25%;
+}
+.right {
+  width:75%;
+}
+.row::after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+main {
+  background-color: lightblue;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.project img {
+  
+  margin-top: 30px;
+  width: 300px;
+  height:300px;
+}
+
+.project {
+  display: inline-flexbox;
+  width: 100%;
+  height: 100%;
+}
+
+#contact-form {
+  margin-top: 300px;
+  justify-content: center;
+  color:#ECE3D5;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#contact-form input {
+  background-color: white;
+}
+
+#contact-form textarea {
+  background-color: white;
+}
+
+#contact-form button {
+  color:#ECE3D5;
+}
+
+#contact-form button:hover {
+  background-color: #ECE3D5;
+  color:#141515;
+}
+
+.resume {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.resume h3 {
+  margin-top: 200px;
+}
+
+.resume li {
+  color:#ECE3D5;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.resume p {
+  color:#ECE3D5
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: center;
+  text-align: center;
+}
+footer div{
+  display:inline-flex;
+  background-color: lightblue;
+  text-align: center;
+  justify-content: center;
+}
+
+footer i{
+  justify-content: center;
+  display: inline-flex;
+  max-height: 100%;
+  margin: 5px;
 }
