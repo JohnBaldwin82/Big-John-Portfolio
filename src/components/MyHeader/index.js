@@ -9,4 +9,4 @@ function MyHeader(props) {
     )
 }
 
-export default MyHeader
+export default MyHeader;

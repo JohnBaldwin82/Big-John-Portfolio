@@ -24,9 +24,9 @@ function MyPage({ currentPage }) {
 
   return (
     <section>
-      {/* <MyPageContent> */}
+      <MyPageContent>
         {renderMyPage()}
-      {/* </MyPageContent> */}
+      </MyPageContent>
     </section>
   )
 }

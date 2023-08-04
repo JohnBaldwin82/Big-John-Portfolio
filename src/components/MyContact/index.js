@@ -11,14 +11,14 @@ function MyContact() {
     const[errorMessage, setErrorMessage] = useState("")
     const {name, email, message} = formState
 
-    const submitHandle = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
         if (!errorMessage) {
             console.log("submit form", formState)
         }
     }
 
-    const changeHandle = (e) => {
+    const handleChange = (e) => {
         if (e.target.name === "email") {
             const yesValid = confirmEmail(e.target.value)
             if (!yesValid) {
@@ -35,14 +35,14 @@ function MyContact() {
 
     return(
         <section>
-            <form id= "My-Contact-Form" onSubmit={submitHandle}>
+            <form id= "My-Contact-Form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Your Name</label>
                     <input
                     type="text"
                     name="name"
                     defaultValue={name}
-                    onGreen={changeHandle}
+                    onGreen={handleChange}
                     />
                 </div>
                 <div>
@@ -52,14 +52,14 @@ function MyContact() {
                         type='email'
                         name='email'
                         defaultValue={email}
-                        onBlur={changeHandle}
+                        onBlur={handleChange}
                         />
                     <label htmlFor="message">Message Me</label>
                     <textarea
                     name="message"
-                    rows="7"
+                    rows="4"
                     defaultValue={message}
-                    onBlur={changeHandle}
+                    onBlur={handleChange}
                     />
                 </div>
                 {errorMessage && (
