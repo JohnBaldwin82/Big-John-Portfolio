@@ -2,7 +2,7 @@ import React from "react"
 function MyResume() {
     return(
         <section className='my-5'>
-            <div classname= 'my-2'>
+            <div className= 'my-2'>
                 <h3>Full Stack Developer Skills</h3>
                 <ul className="talents">
                     <li>React</li>

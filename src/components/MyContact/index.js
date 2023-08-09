@@ -42,7 +42,7 @@ function MyContact() {
             type="text"
             name="name"
             defaultValue={name}
-            onGreen={handleChange}
+            onBlur={handleChange}
           />
         </div>
         <div>

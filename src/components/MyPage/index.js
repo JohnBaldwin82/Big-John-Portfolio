@@ -9,7 +9,6 @@ import MyResume from "../MyResume";
 
 function renderMyPage({ currentPage }) {
   const rendPage = () => {
-    console.log(currentPage.name);
     switch (currentPage.name) {
       case "About":
         return <About />;
