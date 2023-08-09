@@ -15,7 +15,7 @@ function MyPortfolio() {
       link: "https://chat-camp.herokuapp.com/",
     },
     {
-      name: "Food(d)-And-Bar",
+      name: "Foo(d)-And-Bar",
       description: "CSS, Server-Side API's, java script",
       repo: "https://github.com/JohnBaldwin82/Food-And-Recipe-Generator",
     },
@@ -40,8 +40,8 @@ function MyPortfolio() {
     <div className="MyPortfolio">
       <div className="flex-column">
         <div className="card">
-          {projects.map((projects, idx) => (
-            <MyProjects project={projects} key={"project" + idx} />
+          {projects.map((project, idx) => (
+            <MyProjects project={project} key={idx} />
           ))}
         </div>
       </div>

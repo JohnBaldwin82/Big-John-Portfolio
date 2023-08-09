@@ -1,24 +1,24 @@
 import React from "react";
 import { removeHyphenThenCapitalize } from "../../utils/helpers";
 
-function MyProjects({ myProject }) {
-  const { name, repo, link, description } = myProject;
+function MyProjects({project}) {
+  const { description, repo, link, name } = project;
 
   return (
     <div className="myProjects" key={name}>
       <img
-        src={require(`../../assets/projects${name}.jpg`)}
+        src={require(`../../assets/projects/${name}.png`)}
         alt={removeHyphenThenCapitalize(name)}
         className="myProjects"
       />
 
       <div className="myProject-text">
         <a href={link}>{removeHyphenThenCapitalize(name)}</a>
-        {""}
+        <br/>
         <a href={repo}>
-            
+            {repo}
         </a>
-
+        <br/>
         <p>{description}</p>
       </div>
     </div>

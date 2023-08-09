@@ -8,5 +8,9 @@ export function capitalize(string) {
 }
 
 export function removeHyphenThenCapitalize(string) {
-    return string.replace(/-/g, '').replace(/(^\w|\s\w)/g, m => m.toUpperCase())
+    console.log(string);
+    //debugger;
+    const partA = string.replace(/-/g, '');
+    const partB = partA.replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+    return partB;
 }

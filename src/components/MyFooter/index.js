@@ -14,10 +14,10 @@ function MyFooter() {
   return (
     <footer className='footer'>
       {icons.map(icon => (
-        <div className='myFooterIcon'>
+        <div className='myFooterIcon' key={icon.name}>
           <a
             href={icon.link}
-            key={icon.name}
+            
             target="_blank"
             rel="noopener noreferrer nofollow">
             <i className={icon.name} devicon-github-original= "true"></i></a>

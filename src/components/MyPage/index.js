@@ -9,14 +9,15 @@ import MyResume from "../MyResume";
 
 function renderMyPage({ currentPage }) {
   const rendPage = () => {
+    console.log(currentPage.name);
     switch (currentPage.name) {
-      case "about me":
+      case "About":
         return <About />;
-      case "MyPortfolio":
+      case "My Portfolio":
         return <MyPortfolio />;
-      case "MyContact":
+      case "My Contact":
         return <MyContact />;
-      case "MyResume":
+      case "My Resume":
         return <MyResume />;
       default:
         return <Homepage />;
