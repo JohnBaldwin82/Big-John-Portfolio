@@ -1,7 +1,7 @@
 import React from 'react';
 
-function johnFooter() {
-  const myIcons = [
+function MyFooter() {
+  const icons = [
     {
       name: "fab fa-github",
       link: "https://github.com/JohnBaldwin82",
@@ -12,8 +12,8 @@ function johnFooter() {
     },
   ];
   return (
-    <footer className='thisFooter'>
-      {myIcons.map(icon => (
+    <footer className='footer'>
+      {icons.map(icon => (
         <div className='myFooterIcon'>
           <a
             href={icon.link}
@@ -27,4 +27,4 @@ function johnFooter() {
   );
 }
 
-export default johnFooter;
+export default MyFooter;

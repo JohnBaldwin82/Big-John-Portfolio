@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import { capitalize } from "../../utils/helpers";
+// import renderMyPage from "../MyPage";
+// const MyPage = 
+
+// function MyPage = {}
 
 function Nav(props) {
   const { pages = [], setCurrentPage, currentPage } = props;
@@ -12,6 +16,7 @@ function Nav(props) {
     <nav className="nav">
       <ul className="flex-column">
         {pages.map((Page) => (
+          <a href={currentPage.name}> 
           <li
             className={`my-6 ${currentPage.name === Page.name && "navActive"}`}
             key={Page.name}
@@ -20,6 +25,7 @@ function Nav(props) {
               {capitalize(Page.name)}
             </span>
           </li>
+          </a>
         ))}
       </ul>
     </nav>

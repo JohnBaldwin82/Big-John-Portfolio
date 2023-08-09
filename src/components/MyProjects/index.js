@@ -5,11 +5,11 @@ function MyProjects({ myProject }) {
   const { name, repo, link, description } = myProject;
 
   return (
-    <div className="myProject" key={name}>
+    <div className="myProjects" key={name}>
       <img
-        src={require(`../../assets/projects/${name}.jpg`)}
+        src={require(`../../assets/projects${name}.jpg`)}
         alt={removeHyphenThenCapitalize(name)}
-        className="myProject"
+        className="myProjects"
       />
 
       <div className="myProject-text">
