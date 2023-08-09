@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.57cf4500.css",
+    "main.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.24d3dade.js",
+    "static/js/787.e533b322.chunk.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.e533b322.chunk.js",
+    "static/media/background.jpg": "/JohnBaldwin82/Big-John-Portfolio/static/media/background.4191c2b20f44182e4314.jpg",
+    "static/media/profile.jpg": "/JohnBaldwin82/Big-John-Portfolio/static/media/profile.7081a907b0cc93aa32bd.jpg",
+    "index.html": "/JohnBaldwin82/Big-John-Portfolio/index.html",
+    "main.57cf4500.css.map": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.57cf4500.css.map",
+    "main.24d3dade.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.24d3dade.js.map",
+    "787.e533b322.chunk.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.e533b322.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57cf4500.css",
+    "static/js/main.24d3dade.js"
+  ]
+}

@@ -20,7 +20,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -162,7 +162,7 @@ main {
 
 #contact-form button:hover {
   background-color: #ECE3D5;
-  color:#141515;
+  color: yellow;
 }
 
 .resume {
@@ -202,6 +202,6 @@ footer div{
 footer i{
   justify-content: center;
   display: inline-flex;
-  max-height: 100%;
-  margin: 5px;
+  max-height: 75%;
+  margin: 10px;
 }
