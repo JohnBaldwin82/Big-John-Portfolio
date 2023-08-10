@@ -14,6 +14,9 @@ To run this application please clone my repository then run an NPM Install. Once
 This will need alot of style in the future. Right now it is very functional but I would like to add more functionality in the future.
 
 ## Screenshots
+![Homepage](https://github.com/JohnBaldwin82/Big-John-Portfolio/assets/124854286/bcf7c082-a682-4c7f-a25f-a02faed7d6ae)
+
+![About](https://github.com/JohnBaldwin82/Big-John-Portfolio/assets/124854286/7f1cb6f9-92c0-4c8c-a698-70b5f21a8952)
 
 
 
