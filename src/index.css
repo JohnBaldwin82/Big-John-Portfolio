@@ -60,7 +60,7 @@ nav li {
 
 nav li:hover {
   background-color: #ECE3D5;
-  color: yellow;
+  color: gray;
 }
 
 .about-me {
