@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.e09ddbf0.css",
-    "main.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.41d82517.js",
-    "static/js/787.e533b322.chunk.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.e533b322.chunk.js",
+    "main.css": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.8a27f222.css",
+    "main.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.768272fd.js",
+    "static/js/787.55991d6b.chunk.js": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.55991d6b.chunk.js",
     "static/media/Chat-Camp.png": "/JohnBaldwin82/Big-John-Portfolio/static/media/Chat-Camp.2703b55cedeb7132f735.png",
     "static/media/background.jpg": "/JohnBaldwin82/Big-John-Portfolio/static/media/background.4191c2b20f44182e4314.jpg",
     "static/media/profile.jpg": "/JohnBaldwin82/Big-John-Portfolio/static/media/profile.7081a907b0cc93aa32bd.jpg",
@@ -12,12 +12,12 @@
     "static/media/Work-Day-Schedule.png": "/JohnBaldwin82/Big-John-Portfolio/static/media/Work-Day-Schedule.12f07d8ea860f91965c2.png",
     "static/media/Text-Editor.png": "/JohnBaldwin82/Big-John-Portfolio/static/media/Text-Editor.729600bb2a39aa2cf5ec.png",
     "index.html": "/JohnBaldwin82/Big-John-Portfolio/index.html",
-    "main.e09ddbf0.css.map": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.e09ddbf0.css.map",
-    "main.41d82517.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.41d82517.js.map",
-    "787.e533b322.chunk.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.e533b322.chunk.js.map"
+    "main.8a27f222.css.map": "/JohnBaldwin82/Big-John-Portfolio/static/css/main.8a27f222.css.map",
+    "main.768272fd.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/main.768272fd.js.map",
+    "787.55991d6b.chunk.js.map": "/JohnBaldwin82/Big-John-Portfolio/static/js/787.55991d6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09ddbf0.css",
-    "static/js/main.41d82517.js"
+    "static/css/main.8a27f222.css",
+    "static/js/main.768272fd.js"
   ]
 }
